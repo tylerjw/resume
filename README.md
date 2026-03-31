@@ -13,4 +13,4 @@ pip install "rendercv[full]"
 rendercv render Tyler_Weaver_CV.yaml --pdf-path cv.pdf
 ```
 
-The compiled PDF is accessible at: https://tylerjw.github.io/resume/cv.pdf
+The compiled PDF is accessible at: https://github.com/tylerjw/resume/blob/build/cv.pdf
