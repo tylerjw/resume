@@ -43,7 +43,7 @@ cv:
         highlights:
           - "Maintainer of [Motion Planning Framework MoveIt](https://github.com/ros-planning/moveit2) — large-scale C++ codebase with complex object graphs, incremental modernization across multiple release cycles"
           - "Author of schema-driven code generation tool for ROS 2 parameters: [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library) — declarative YAML schemas compiled to type-safe C++ with validation"
-          - "Led software modernization efforts across a 500k+ line codebase: API redesign, memory safety improvements, concurrency correctness, and static analysis integration"
+          - "Led software modernization efforts across a large, multi-package codebase: API redesign, memory safety improvements, concurrency correctness, and static analysis integration"
           - "Authored Blog Series on Rust/C++ Interop: [Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/), [CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/), [CXX](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)"
           - "Author of C++17 utility library: [ROS Support Library](https://github.com/picknikrobotics/RSL)"
           - "Prepared and led training on C++, Rust, Infrastructure, Testing, Debugging, SOLID, Functional Programming"
