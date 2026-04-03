@@ -16,11 +16,20 @@ jobs:
         run: pip install "rendercv[full]"
       - name: Render CV
         run: rendercv render Tyler_Weaver_CV.yaml --pdf-path cv.pdf
-      - name: Upload pdf as artifact
+      - name: Install Typst
+        run: pip install typst
+      - name: Render Cover Letter
+        run: python -c "import typst; typst.compile('cover_letter.typ', output='cover_letter.pdf')"
+      - name: Upload cv as artifact
         uses: actions/upload-artifact@v4
         with:
           name: cv.pdf
           path: cv.pdf
+      - name: Upload cover letter as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cover_letter.pdf
+          path: cover_letter.pdf
   deploy:
     needs: [build]
     runs-on: ubuntu-latest
