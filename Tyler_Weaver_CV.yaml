@@ -18,6 +18,7 @@ cv:
         start_date: 2024-04
         end_date: present
         highlights:
+          - "Microservices architecture using ZMQ and Protobuf for inter-service messaging, deployed via Helm and Kubernetes"
           - "Designed and evolved database schemas in Yugabyte (Postgres-compatible distributed DB) for a multi-terabyte archive system, including indexing strategies and query optimization"
           - "Built query planner analysis tooling to estimate migration complexity, preventing repeat of a production outage caused by an O(n^2) migration that consumed hundreds of GB of RAM"
           - "Rewrote critical database migration to run in linear time with bounded memory, restoring production stability"
@@ -41,7 +42,7 @@ cv:
         start_date: 2019-04
         end_date: 2024-02
         highlights:
-          - "Maintainer of [Motion Planning Framework MoveIt](https://github.com/ros-planning/moveit2) — large-scale C++ codebase with complex object graphs, incremental modernization across multiple release cycles"
+          - "Maintainer of [Motion Planning Framework MoveIt](https://github.com/ros-planning/moveit2) — large-scale C++ codebase with complex object graphs, incremental modernization across multiple release cycles. ROS is a microservices framework with a publish-subscribe message bus"
           - "Author of schema-driven code generation tool for ROS 2 parameters: [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library) — declarative YAML schemas compiled to type-safe C++ with validation"
           - "Led software modernization efforts across a large, multi-package codebase: API redesign, memory safety improvements, concurrency correctness, and static analysis integration"
           - "Authored Blog Series on Rust/C++ Interop: [Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/), [CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/), [CXX](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)"
@@ -50,7 +51,7 @@ cv:
           - "Technical lead for warehouse pick-and-place and fruit harvesting robot projects — onsite integration, hardware drivers, CI/CD, localization"
           - "CI/CD systems for OSS and internal projects using GitHub Actions, GitLab, CircleCI"
           - "CD systems using packaging (Conda, Conan, Debian) and containers"
-          - "[Maintainer and contributor to many OSS libraries in ROS](http://ros.rocks/?q=Tyler+Weaver)"
+          - "[Maintainer and contributor to many OSS libraries in ROS](https://github.com/search?q=author%3Atylerjw+org%3Aros-planning+org%3Aros+org%3Aros2+org%3APickNikRobotics+org%3Amoveit+org%3Agazebosim+org%3Aros-controls&type=pullrequests)"
 
       - company: Indiegogo funded project
         position: Firmware Engineer
