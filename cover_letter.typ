@@ -15,10 +15,6 @@
   spacing: 1.8em,
 )
 
-// Header matching resume style
-#text(size: 28pt, weight: "bold", fill: rgb(0, 122, 255))[Tyler Weaver]
-#v(0.5cm)
-
 Hello,
 
 The role for the Data Layer for Final Cut Pro jumped out at me as an awesome opportunity. I want to work for Apple because I want to develop software users love and with people who care deeply about their craft.
