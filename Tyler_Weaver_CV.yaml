@@ -84,6 +84,16 @@ cv:
         highlights:
           - Afghanistan deployment 2013
 
+    speaking:
+      - name: "C++/Rust Interop: Using Bridges in Practice"
+        date: 2024-09
+        highlights:
+          - "[CppCon 2024](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/) — Presented practical patterns for bridging Rust and C++ codebases using FFI and cxx"
+      - name: "Two talks at ROSCon 2023"
+        date: 2023-10
+        highlights:
+          - "Presented on generate_parameter_library and ROS development workflows"
+
     education:
       - institution: DeVry University
         area: Computer Engineering Technologies
@@ -110,6 +120,76 @@ cv:
         details: "Axum, Tokio, ZMQ, Eigen, Boost, Protobuf, ROS, MoveIt"
 
 design:
-  theme: classic
+  theme: engineeringresumes
   page:
-    size: a4
+    size: us-letter
+    top_margin: "0.5in"
+    bottom_margin: "0.5in"
+    left_margin: "0.6in"
+    right_margin: "0.6in"
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: "rgb(30, 30, 30)"
+    name: "rgb(30, 30, 30)"
+    headline: "rgb(60, 60, 60)"
+    connections: "rgb(60, 60, 60)"
+    section_titles: "rgb(30, 30, 30)"
+    links: "rgb(0, 80, 140)"
+    footer: "rgb(128, 128, 128)"
+    top_note: "rgb(128, 128, 128)"
+  typography:
+    alignment: justified-with-no-hyphenation
+    font_family: "Source Sans 3"
+    font_size:
+      body: "10pt"
+      name: "26pt"
+      headline: "10pt"
+      connections: "9pt"
+      section_titles: "1.2em"
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+  header:
+    alignment: left
+    space_below_name: "0.4cm"
+    space_below_connections: "0.5cm"
+    connections:
+      separator: "|"
+      show_icons: false
+      space_between_connections: "0.4cm"
+      phone_number_format: national
+  links:
+    underline: true
+    show_external_link_icon: false
+  section_titles:
+    type: with_full_line
+    line_thickness: "0.5pt"
+    space_above: "0.45cm"
+    space_below: "0.25cm"
+  sections:
+    space_between_regular_entries: "0.4cm"
+    space_between_text_based_entries: "0.15cm"
+    show_time_spans_in: []
+  entries:
+    short_second_row: false
+    side_space: "0cm"
+    space_between_columns: "0.15cm"
+    summary:
+      space_above: "0.06cm"
+    highlights:
+      bullet: "•"
+      space_left: "0cm"
+      space_above: "0.06cm"
+      space_between_items: "0.06cm"
+      space_between_bullet_and_text: "0.4em"
+  templates:
+    experience_entry:
+      main_column: "**POSITION**, COMPANY\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: DATE
+    education_entry:
+      main_column: "**INSTITUTION**, DEGREE_WITH_AREA\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: DATE
+      degree_column: null
