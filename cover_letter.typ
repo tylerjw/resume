@@ -12,18 +12,12 @@
 #set par(
   justify: true,
   leading: 0.7em,
-  spacing: 1.2em,
+  spacing: 1.8em,
 )
 
 // Header matching resume style
 #text(size: 28pt, weight: "bold", fill: rgb(0, 122, 255))[Tyler Weaver]
-#v(0.3cm)
-#text(size: 9pt, fill: rgb(142, 142, 147))[
-  maybe\@tylerjw.dev | (303) 903-5681 | github.com/tylerjw | linkedin.com/in/tyler-weaver-b504626
-]
 #v(0.5cm)
-#line(length: 100%, stroke: 0.4pt + rgb(28, 28, 30))
-#v(0.4cm)
 
 Hello,
 
