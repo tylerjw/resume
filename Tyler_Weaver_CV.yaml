@@ -10,11 +10,11 @@ cv:
       username: tyler-weaver-b504626
   sections:
     summary:
-      - "Systems engineer with 10+ years of experience in performance-critical software, specializing in data systems design, persistence architecture, and high-performance computing in Rust and C++. Production experience designing database schemas, optimizing queries and migrations, and building event-sourced data systems. Deep focus on data integrity, transactional correctness, and I/O performance in demanding real-time environments."
+      - "Systems engineer with 10+ years shipping performance-critical software in Rust and C++. I build and operate distributed infrastructure: microservices, data pipelines, and the tooling around them. I care about reliability, observability, and writing software that other engineers can reason about. Open source maintainer and contributor."
 
     work experience:
       - company: SciTec
-        position: Principal Software Engineer — Data Infrastructure and Archive Platform in Rust
+        position: Principal Software Engineer — Distributed Archive Platform in Rust
         start_date: 2024-04
         end_date: present
         highlights:
@@ -38,19 +38,19 @@ cv:
           - "Developing an offline-first application with conflict resolution via upsert-based merge strategies (last-writer-wins), exploring practical tradeoffs of distributed data synchronization"
 
       - company: PickNik Robotics
-        position: Staff Software Engineer — Assumed diverse responsibilities at fast-moving startup
+        position: Staff Software Engineer
         start_date: 2019-04
         end_date: 2024-02
         highlights:
-          - "Maintainer of [Motion Planning Framework MoveIt](https://github.com/ros-planning/moveit2) — large-scale C++ codebase with complex object graphs, incremental modernization across multiple release cycles. ROS is a microservices framework with a publish-subscribe message bus"
-          - "Author of schema-driven code generation tool for ROS 2 parameters: [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library) — declarative YAML schemas compiled to type-safe C++ with validation"
-          - "Led software modernization efforts across a large, multi-package codebase: API redesign, memory safety improvements, concurrency correctness, and static analysis integration"
-          - "Authored Blog Series on Rust/C++ Interop: [Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/), [CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/), [CXX](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)"
-          - "Author of C++17 utility library: [ROS Support Library](https://github.com/picknikrobotics/RSL)"
-          - "Prepared and led training on C++, Rust, Infrastructure, Testing, Debugging, SOLID, Functional Programming"
-          - "Technical lead for warehouse pick-and-place and fruit harvesting robot projects — onsite integration, hardware drivers, CI/CD, localization"
+          - "Maintainer of [MoveIt](https://github.com/ros-planning/moveit2), a large-scale C++ motion planning framework with complex object graphs. Incremental modernization across multiple release cycles. ROS is a microservices framework with a publish-subscribe message bus"
+          - "Author of [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library), a schema-driven code generation tool: declarative YAML schemas compiled to type-safe C++ with validation"
+          - "Led software modernization across a multi-package codebase: API redesign, memory safety improvements, concurrency correctness, and static analysis integration"
+          - "Authored blog series on Rust/C++ interop: [Just the Basics](https://tylerjw.dev/posts/rust-cpp-interop/), [CMake](https://tylerjw.dev/posts/rust-cmake-interop-cmake/), [CXX](https://tylerjw.dev/posts/rust-cmake-interop-part-3-cxx/)"
+          - "Author of [RSL](https://github.com/picknikrobotics/RSL), a C++17 utility library for ROS"
+          - "Prepared and led training on C++, Rust, testing, debugging, and software design"
+          - "Technical lead for warehouse pick-and-place and fruit harvesting robot projects, including onsite integration, hardware drivers, CI/CD, and localization"
           - "CI/CD systems for OSS and internal projects using GitHub Actions, GitLab, CircleCI"
-          - "CD systems using packaging (Conda, Conan, Debian) and containers"
+          - "Packaging and deployment using Conda, Conan, Debian packages, and containers"
           - "[Maintainer and contributor to many OSS libraries in ROS](https://github.com/search?q=author%3Atylerjw+org%3Aros-planning+org%3Aros+org%3Aros2+org%3APickNikRobotics+org%3Amoveit+org%3Agazebosim+org%3Aros-controls&type=pullrequests)"
 
       - company: Indiegogo funded project
@@ -59,9 +59,8 @@ cv:
         end_date: 2020-08
         highlights:
           - "[Thermal sensor for motorsports](https://www.indiegogo.com/projects/tirex-advanced-thermal-sensor-for-motorsports/)"
-          - Developed firmware for micro-controller application
-          - Math code written as a library that was also compiled and tested on the host
-          - CAN messaging to data-logger
+          - Firmware for a microcontroller, math library compiled and tested on host
+          - CAN bus messaging to data-logger
           - Optimized for code-space to fit on low-cost target
 
       - company: LGS Innovations
@@ -70,10 +69,10 @@ cv:
         end_date: 2019-03
         highlights:
           - TS/SCI with polygraph
-          - "Optimized C++ polyphase resampler and FIR filter for ARM NEON — memory-aligned data layout and vectorized I/O for real-time signal processing"
+          - "Optimized C++ polyphase resampler and FIR filter for ARM NEON, memory-aligned data layout and vectorized I/O for real-time signal processing"
           - Interface library for new SDR using Protobuf messaging and VRT over Ethernet
-          - "P25 scanner library — Goertzel algorithm tuned for quick reject, FSW timing and frequency recovery, Viterbi, RS, BCH, and CRC decoding"
-          - "MPT1327 scanner library — IPP-optimized FM demod, feedback timing recovery for MSK"
+          - "P25 scanner library: Goertzel algorithm tuned for quick reject, FSW timing and frequency recovery, Viterbi, RS, BCH, and CRC decoding"
+          - "MPT1327 scanner library: IPP-optimized FM demod, feedback timing recovery for MSK"
           - Adversarial research on 802.11b physical layer using an SDR
           - Library for detecting oddly configured cellular basestations
           - Ported Matlab library for unknown signal analysis into C++
@@ -89,7 +88,7 @@ cv:
       - name: "C++/Rust Interop: Using Bridges in Practice"
         date: 2024-09
         highlights:
-          - "[CppCon 2024](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/) — Presented practical patterns for bridging Rust and C++ codebases using FFI and cxx"
+          - "[CppCon 2024](https://tylerjw.dev/posts/20240920-cppcon-cpp-rust-interop/) — Practical patterns for bridging Rust and C++ codebases using FFI and cxx"
       - name: "Two talks at ROSCon 2023"
         date: 2023-10
         highlights:
@@ -105,20 +104,18 @@ cv:
           - "GPA: 3.96/4.0"
 
     skills:
-      - label: Programming Languages
+      - label: Languages
         details: "Rust, C++20/17/14, C, Python, Bash"
+      - label: Infrastructure
+        details: "Kubernetes, Helm, Docker, Microservices, ZMQ, Protobuf, Axum, Tokio"
       - label: Data Systems
-        details: "Yugabyte, PostgreSQL, Event Sourcing, CQRS, Protobuf, Schema Design, Query Optimization, Migration Strategies"
-      - label: Build Tools
-        details: "CMake, Cargo, Bazel, Makefiles, Colcon"
+        details: "Yugabyte, PostgreSQL, Event Sourcing, CQRS, Schema Design, Query Optimization, Migration Strategies"
+      - label: Observability & Debugging
+        details: "Prometheus, Perfetto, GDB, Valgrind, ASan, TSan, MemSan"
       - label: CI/CD
         details: "GitHub Actions, GitLab-CI, Jenkins, SonarCloud, Docker, pre-commit"
-      - label: Performance & Debugging
-        details: "Perfetto, GDB, Valgrind, ASan, TSan, MemSan, ARM NEON, Prometheus"
       - label: Testing
         details: "Integration test harness design, Catch2, Gtest, Clippy, Clang-Tidy"
-      - label: Libraries
-        details: "Axum, Tokio, ZMQ, Eigen, Boost, Protobuf, ROS, MoveIt"
 
 design:
   theme: engineeringresumes
@@ -131,15 +128,14 @@ design:
     show_footer: false
     show_top_note: false
   colors:
-    # Apple design language: #1C1C1E primary, #007AFF accent, #8E8E93 secondary
-    body: "rgb(28, 28, 30)"
-    name: "rgb(0, 122, 255)"
-    headline: "rgb(28, 28, 30)"
-    connections: "rgb(142, 142, 147)"
-    section_titles: "rgb(0, 122, 255)"
-    links: "rgb(0, 122, 255)"
-    footer: "rgb(142, 142, 147)"
-    top_note: "rgb(142, 142, 147)"
+    body: "rgb(33, 33, 33)"
+    name: "rgb(33, 33, 33)"
+    headline: "rgb(33, 33, 33)"
+    connections: "rgb(117, 117, 117)"
+    section_titles: "rgb(33, 33, 33)"
+    links: "rgb(66, 66, 66)"
+    footer: "rgb(117, 117, 117)"
+    top_note: "rgb(117, 117, 117)"
   typography:
     alignment: justified-with-no-hyphenation
     font_family: "Lato"
